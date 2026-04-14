@@ -71,7 +71,7 @@ namespace Console.FileSystemWatcher
 
             Console.WriteLine($"Überwache Änderungen im Verzeichnis '{path}' gestartet; ({bfsw.GetFileSystemWatcherInfo()})");
 
-            CMenu.Wait();
+            Console.Wait();
         }
 
         private static void MenuPoint2()
